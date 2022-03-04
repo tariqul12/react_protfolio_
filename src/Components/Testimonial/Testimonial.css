@@ -38,6 +38,9 @@
 .Testimonial .img img{
     width: 100%;
 }
+
+
+/* Testimonial slider */
 .Testimonial .slide {
     max-width: 80%;
     margin: auto;
@@ -56,3 +59,16 @@ article{
     opacity: 0;
     transition: all 0.3s linear;
 }
+article.activeSlide{
+    opacity: 1;
+    transform: translateX(0);
+}
+article.lastSlide{
+
+    transform: translateX(-100%);
+}
+article.nextSlide{
+
+    transform: translateX(100%);
+} 
+/*  Testiomonial slider end */

@@ -1,5 +1,7 @@
 import './App.css';
+import { Contact } from './Components/Contact/Contact';
 import Features from './Components/Features/Features';
+import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Header2 from './Components/Header/Header2';
 import Home from './Components/Home/Home';
@@ -17,6 +19,8 @@ function App() {
         <Protfolio />
         <Resume />
         <Testimonial />
+        <Contact />
+        <Footer />
     </>
   );
 }

@@ -59,6 +59,7 @@
     margin-top: 10%;
     transition: 0.3s;
 }
+
 .hero .right_img img{
     position: absolute;
     top: 0;
@@ -70,3 +71,18 @@
     transform: translateY(-20px);
 }
 
+@media (max-width:768px){
+    .hero .right ,
+    .hero .left{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .hero .f_flex {
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .hero .right_img{
+        width: 95%;
+        height: 54vh;
+    }
+}

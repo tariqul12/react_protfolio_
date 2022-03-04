@@ -53,6 +53,11 @@ button{
     background:linear-gradient(145deg,#e2ebec,#ffffff);
     box-shadow: 4px 4px 8px #cbcbcb,4px -4px 8px #ffffff;
 }
+.box_shadow{
+    background:linear-gradient(145deg,#e2ebec,#ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb,4px -4px 8px #ffffff;
+    border-radius: 10px;
+}
 .btn_shadow:hover{
     background: #ff014f;
     color: whitesmoke;
@@ -92,5 +97,16 @@ p{
 }
 .text-center{
     text-align: center;
+}
+footer {
+    margin: 20% 0 10% 0;
+}
+@media (max-width:768px) {
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .left, .right {
+        width: 100%;
+    }
 }
 
