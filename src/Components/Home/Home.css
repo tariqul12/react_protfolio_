@@ -84,5 +84,9 @@
     .hero .right_img{
         width: 95%;
         height: 54vh;
+        margin-bottom: 40px;
+    }
+    .hero .right_img img{
+        margin-top: -35px;
     }
 }
